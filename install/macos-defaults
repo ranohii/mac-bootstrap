@@ -136,7 +136,7 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 10
 # `Inches`, `en_GB` with `en_US`, and `true` with `false`.
 defaults write NSGlobalDomain AppleLanguages -array "ja"
 defaults write NSGlobalDomain AppleLocale -string "ja@currency=JPY"
-defaults write NSGlobalDomain AppleMeasurementUnits -string "Inches"
+defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool false
 
 # Set the timezone; see `systemsetup -listtimezones` for other values
